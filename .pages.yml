@@ -36,8 +36,10 @@ content:
         label: Body
         type: rich-text
     view:
-      layout: tree
+      layout: list
+      fields: [title]
       primary: title
+      search: [title]
     operations:
       delete: false
 
@@ -57,8 +59,10 @@ content:
         label: Body
         type: rich-text
     view:
-      layout: tree
+      layout: list
+      fields: [title]
       primary: title
+      search: [title]
     operations:
       delete: false
 
@@ -78,8 +82,10 @@ content:
         label: Body
         type: rich-text
     view:
-      layout: tree
+      layout: list
+      fields: [title]
       primary: title
+      search: [title]
     operations:
       delete: false
 
@@ -99,8 +105,10 @@ content:
         label: Body
         type: rich-text
     view:
-      layout: tree
+      layout: list
+      fields: [title]
       primary: title
+      search: [title]
     operations:
       delete: false
 

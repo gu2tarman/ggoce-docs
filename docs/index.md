@@ -1,3 +1,7 @@
+---
+title: GGO CE Guide
+---
+
 # GGO CE Guide
 
 GGO CE와 GGO Custom Launcher, 그리고 GGO 스크립트를 처음 쓰는 유저를 위한 공식 가이드입니다.
