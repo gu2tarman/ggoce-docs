@@ -1,0 +1,94 @@
+site_name: GGO CE Guide
+site_description: GGO CE, GGO Custom Launcher, and GGO scripts user guide
+site_url: https://gu2tarman.github.io/ggoce-docs/
+repo_url: https://github.com/gu2tarman/ggoce-docs
+repo_name: gu2tarman/ggoce-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 어두운 테마로 전환
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 밝은 테마로 전환
+
+plugins:
+  - search:
+      lang:
+        - ko
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - 홈: index.md
+  - 시작하기:
+      - 설정 가이드 PPT: https://docs.google.com/presentation/d/1iA6vzvoBJPdn_FnCCv4HwOVrhrgPSv4OAhWop-rcqAo/present?usp=sharing
+      - 설치와 업데이트: install/launcher.md
+      - 첫 실행 체크리스트: install/first-run.md
+      - 문제 해결: install/troubleshooting.md
+  - GGO CE:
+      - 기능 둘러보기: ce/features.md
+      - 원본 CUO와 차이: ce/compare-original.md
+      - 그리드 뷰 확장: ce/grid-view.md
+      - 오토루팅: ce/auto-loot.md
+      - HUD 스탯바: ce/hud-statbar.md
+      - 체력바와 발밑 헬스바: ce/healthbars.md
+      - 스탯 인사이트와 스탯 가드: ce/stat-insight-guard-lmc.md
+      - 향상된 버프 바와 모던 UI: ce/buffbar-modern-ui.md
+      - 자동 복구와 패스파인딩: ce/reconnect-pathfinding.md
+      - 렌더러와 표시 버전: ce/renderer-branding.md
+      - 애니메이션 캐시 정리: ce/animation-cache.md
+      - 원본 CUO 패치 반영: ce/upstream-fixes.md
+      - 옵션 위치: ce/options.md
+      - 패치노트: ce/changelog.md
+  - 스크립트:
+      - 전체 목록: scripts/overview.md
+      - 오토루팅: scripts/auto-loot.md
+      - 바드봇: scripts/bard-bot.md
+      - 쓰로잉봇: scripts/throwing-bot.md
+      - 업데이트매니저: scripts/update-manager.md
+  - 지원:
+      - 자주 묻는 질문: support/faq.md
+      - 피드백 보내기: support/feedback.md
+      - 제보 작성 가이드: support/reporting.md
+      - 문서 편집 방법: support/editing-docs.md

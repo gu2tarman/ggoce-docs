@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {
+      "label": "GGO GUIDE",
+      "buttons": [
+        { "label": "설정 가이드", "url": "https://docs.google.com/presentation/d/1iA6vzvoBJPdn_FnCCv4HwOVrhrgPSv4OAhWop-rcqAo/present?usp=sharing" },
+        { "label": "CE 기능 위키", "url": "https://gu2tarman.github.io/ggoce-docs/ce/features/" },
+        { "label": "문제 해결", "url": "https://gu2tarman.github.io/ggoce-docs/install/troubleshooting/" },
+        { "label": "피드백", "url": "https://gu2tarman.github.io/ggoce-docs/support/feedback/" }
+      ]
+    },
+    {
+      "label": "GGO SUPPORT",
+      "buttons": [
+        { "label": "버그 제보", "url": "https://github.com/gu2tarman/ggoce-docs/issues/new?template=bug_report.yml" },
+        { "label": "기능 제안", "url": "https://github.com/gu2tarman/ggoce-docs/issues/new?template=feature_request.yml" }
+      ]
+    }
+  ]
+}

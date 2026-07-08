@@ -1,0 +1,113 @@
+media:
+  input: docs/assets/images
+  output: /ggoce-docs/assets/images
+  rename: safe
+  extensions: [png, jpg, jpeg, webp, gif]
+
+content:
+  - name: home
+    label: Home
+    type: file
+    path: docs/index.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: false
+      - name: body
+        label: Body
+        type: rich-text
+    operations:
+      delete: false
+
+  - name: start
+    label: 시작하기
+    type: collection
+    path: docs/install
+    filename:
+      template: "{primary}.md"
+      field: create
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: false
+      - name: body
+        label: Body
+        type: rich-text
+    view:
+      layout: tree
+      primary: title
+    operations:
+      delete: false
+
+  - name: ce
+    label: GGO CE 위키
+    type: collection
+    path: docs/ce
+    filename:
+      template: "{primary}.md"
+      field: create
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: false
+      - name: body
+        label: Body
+        type: rich-text
+    view:
+      layout: tree
+      primary: title
+    operations:
+      delete: false
+
+  - name: scripts
+    label: 스크립트 가이드
+    type: collection
+    path: docs/scripts
+    filename:
+      template: "{primary}.md"
+      field: create
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: false
+      - name: body
+        label: Body
+        type: rich-text
+    view:
+      layout: tree
+      primary: title
+    operations:
+      delete: false
+
+  - name: support
+    label: 지원/운영 문서
+    type: collection
+    path: docs/support
+    filename:
+      template: "{primary}.md"
+      field: create
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: false
+      - name: body
+        label: Body
+        type: rich-text
+    view:
+      layout: tree
+      primary: title
+    operations:
+      delete: false
+
+settings:
+  commit:
+    templates:
+      create: "docs: add {path}"
+      update: "docs: update {path}"
+      delete: "docs: remove {path}"
+      upload: "docs: upload {path}"
