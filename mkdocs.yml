@@ -4,6 +4,8 @@ site_url: https://gu2tarman.github.io/ggoce-docs/
 repo_url: https://github.com/gu2tarman/ggoce-docs
 repo_name: gu2tarman/ggoce-docs
 edit_uri: edit/main/docs/
+exclude_docs: |
+  scripts/**
 
 theme:
   name: material
@@ -81,12 +83,6 @@ nav:
       - 원본 CUO 패치 반영: ce/upstream-fixes.md
       - 옵션 위치: ce/options.md
       - 패치노트: ce/changelog.md
-  - 스크립트:
-      - 전체 목록: scripts/overview.md
-      - 오토루팅: scripts/auto-loot.md
-      - 바드봇: scripts/bard-bot.md
-      - 쓰로잉봇: scripts/throwing-bot.md
-      - 업데이트매니저: scripts/update-manager.md
   - 지원:
       - 자주 묻는 질문: support/faq.md
       - 피드백 보내기: support/feedback.md
