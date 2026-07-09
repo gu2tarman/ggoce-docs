@@ -5,7 +5,7 @@ title: 페이퍼돌과 장비 슬롯
 
 GGO CE는 원본 ClassicUO의 페이퍼돌을 보강해 장비 확인과 관리가 더 쉽도록 했습니다.
 
-![image.png](/ggoce-docs/assets/images/image-17.png)
+![페이퍼돌 장비 슬롯 스크린샷](/ggoce-docs/assets/images/image-17.png)
 
 ## 추가 장비 슬롯
 

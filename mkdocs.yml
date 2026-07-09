@@ -92,3 +92,4 @@ nav:
 
 extra_css:
   - assets/stylesheets/sidebar.css
+  - assets/stylesheets/table-fixes.css
