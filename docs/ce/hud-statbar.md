@@ -3,6 +3,8 @@ title: HUD 스탯바
 ---
 # HUD 스탯바
 
+![image.png](/ggoce-docs/assets/images/image.png)
+
 HP, 마나, 스태미너를 한 줄로 보는 GGO CE 전용 상태바입니다.
 
 ## 켜는 위치
