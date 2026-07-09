@@ -75,10 +75,11 @@ nav:
       - 오토루팅: ce/auto-loot.md
       - HUD 스탯바: ce/hud-statbar.md
       - 체력바와 발밑 헬스바: ce/healthbars.md
+      - 페이퍼돌과 장비 슬롯: ce/paperdoll-equipment.md
       - 스탯 인사이트와 스탯 가드: ce/stat-insight-guard-lmc.md
       - 향상된 버프 바와 모던 UI: ce/buffbar-modern-ui.md
       - 자동 복구와 패스파인딩: ce/reconnect-pathfinding.md
-      - 렌더러와 표시 버전: ce/renderer-branding.md
+      - 렌더러와 표시 설정: ce/renderer-branding.md
       - 애니메이션 캐시 정리: ce/animation-cache.md
       - 원본 CUO 패치 반영: ce/upstream-fixes.md
       - 옵션 위치: ce/options.md
