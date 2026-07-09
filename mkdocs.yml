@@ -68,7 +68,7 @@ nav:
       - 설치와 업데이트: install/launcher.md
       - 첫 실행 체크리스트: install/first-run.md
       - 문제 해결: install/troubleshooting.md
-  - GGO CE:
+  - GGO CE 위키:
       - 기능 둘러보기: ce/features.md
       - 원본 CUO와 차이: ce/compare-original.md
       - 그리드 뷰 확장: ce/grid-view.md
@@ -88,3 +88,6 @@ nav:
       - 피드백 보내기: support/feedback.md
       - 제보 작성 가이드: support/reporting.md
       - 문서 편집 방법: support/editing-docs.md
+
+extra_css:
+  - assets/stylesheets/sidebar.css
