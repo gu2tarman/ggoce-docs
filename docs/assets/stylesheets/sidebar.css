@@ -17,3 +17,15 @@
 .md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item--section:first-of-type > .md-nav__link {
   margin-top: 0.25rem;
 }
+
+.md-typeset table th,
+.md-typeset table td {
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+.md-typeset table th:first-child,
+.md-typeset table td:first-child {
+  min-width: 7.5em;
+  white-space: nowrap;
+}
