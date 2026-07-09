@@ -4,29 +4,25 @@ title: GGO CE 기능 둘러보기
 
 # GGO CE 기능 둘러보기
 
-GGO CE는 ClassicUO 기반에 GGO 플레이 환경을 위한 편의 기능을 더한 클라이언트입니다. 이 섹션은 원본 CUO에는 없거나, 원본 기능을 GGO CE에서 확장한 항목을 설명합니다.
+GGO CE에서 추가되거나 확장된 기능 목록입니다. 원본과의 큰 차이는 [원본 CUO와 차이](compare-original.md)에 따로 정리했습니다.
 
-## 주요 기능
+## 기능 목록
 
 | 기능 | 설명 |
 | --- | --- |
-| [그리드 뷰 확장](grid-view.md) | 원본의 시체 중심 Grid Loot를 일반 컨테이너까지 확장하고, 검색/정렬/스크롤/접합/즐겨찾기를 제공합니다. |
-| [오토루팅](auto-loot.md) | 아이템 속성을 읽어 점수 계산, 자동 루팅, 장비 추천, 루팅 기록을 지원합니다. |
-| [HUD 스탯바](hud-statbar.md) | HP/마나/스태미너를 한 줄 HUD로 표시하고 회복 헬퍼와 연결합니다. |
-| [체력바와 발밑 헬스바](healthbars.md) | 파티원/펫용 GGO 체력바 스킨, 자동 숨김, MP 줄, 클릭 액션을 지원합니다. |
-| [스탯 인사이트와 스탯 가드](stat-insight-guard-lmc.md) | 순수 스탯 추정, 장비 스탯 분리, 자동 잠금, LMC 실효값 계산을 제공합니다. |
-| [향상된 버프 바와 모던 UI](buffbar-modern-ui.md) | 버프 남은 시간 표시와 GGO 전용 UI 프레임을 제공합니다. |
-| [자동 복구와 패스파인딩](reconnect-pathfinding.md) | 서버 프리징 감지, 재접속, 클라이언트 재시작, 경로 계산 보호를 지원합니다. |
-| [렌더러와 표시 버전](renderer-branding.md) | DirectX 11 선택, GGO CE 버전 표시, 배포판 식별을 제공합니다. |
-| [애니메이션 캐시 정리](animation-cache.md) | 장시간 다중 클라이언트 환경에서 애니메이션 캐시를 수동 정리합니다. |
-
-## 설명할 때의 핵심
-
-GGO CE의 방향은 “클라이언트가 게임을 대신 플레이하는 것”보다 “반복 확인, 상태 파악, UI 조작 비용을 줄이는 것”에 가깝습니다. 특히 그리드 뷰, 오토루팅, HUD/체력바, 스탯 인사이트 계열은 원본 CUO보다 많은 정보를 한 화면에서 판단할 수 있게 만드는 기능입니다.
+| [그리드 뷰 확장](grid-view.md) | 일반 컨테이너 그리드, 검색, 스크롤, 접합, 즐겨찾기 |
+| [오토루팅](auto-loot.md) | 점수 기반 루팅, 커스텀 목록, 장비 추천, 기록 |
+| [HUD 스탯바](hud-statbar.md) | HP/마나/스태미너 HUD, 회복 헬퍼, 스탯 툴팁 |
+| [체력바와 발밑 헬스바](healthbars.md) | GGO 체력바 스킨, 자동 숨김, 클릭 액션 |
+| [스탯 인사이트와 스탯 가드](stat-insight-guard-lmc.md) | 순수 스탯 추정, 자동 잠금, LMC 계산 |
+| [향상된 버프 바와 모던 UI](buffbar-modern-ui.md) | 버프 시간 표시, GGO UI 프레임 |
+| [자동 복구와 패스파인딩](reconnect-pathfinding.md) | 프리징 감지, 재접속, 경로 계산 보호 |
+| [렌더러와 표시 버전](renderer-branding.md) | 렌더러 선택, GGO CE 버전 표시 |
+| [애니메이션 캐시 정리](animation-cache.md) | `flushanim` 명령 |
 
 ## 옵션 위치
 
-대부분의 기능은 다음 탭 중 하나에서 설정합니다.
+주요 설정 탭:
 
 - `Options → GGO Custom`
 - `Options → GGO Grid View`
