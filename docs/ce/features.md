@@ -5,6 +5,8 @@ title: GGO CE 기능 둘러보기
 
 GGO CE에서 추가되거나 확장된 기능 목록입니다. 원본과의 큰 차이는 [원본 CUO와 차이](compare-original.md)에 따로 정리했습니다.
 
+슬라이드 형태로 빠르게 보고 싶다면 [기능 둘러보기 슬라이드](feature-guide-slides.md)를 확인하세요.
+
 ## 기능 목록
 
 | 기능 | 설명 |
