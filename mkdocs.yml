@@ -70,7 +70,7 @@ nav:
       - 문제 해결: install/troubleshooting.md
   - GGO CE 위키:
       - 기능 둘러보기: ce/features.md
-      - 기능 둘러보기 슬라이드: ce/feature-guide-slides.md
+      - 기능 둘러보기 슬라이드: https://drive.google.com/file/d/1qayl0hIA1Ls7n_heOsE1RErzcG22KcZE/preview
       - 원본 CUO와 차이: ce/compare-original.md
       - 그리드 뷰 확장: ce/grid-view.md
       - 오토루팅: ce/auto-loot.md
@@ -94,4 +94,3 @@ nav:
 extra_css:
   - assets/stylesheets/sidebar.css
   - assets/stylesheets/table-fixes.css
-  - assets/stylesheets/slide-embeds.css
